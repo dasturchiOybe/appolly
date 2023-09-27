@@ -249,17 +249,18 @@ body {
 }
 .all main .container .text {
   position: relative;
-  zoom: 0.98;
+  margin-left: 20px;
+  height: 450px;
   width: 57rem;
   padding: 4rem 3rem;
-  height: 43.2rem;
+  height: 48rem;
   background: #fff;
 }
 .all main .container .text .border {
   position: absolute;
   z-index: -1;
-  height: 53rem;
-  top: -5rem;
+  height: 56rem;
+  top: -4rem;
   left: 5rem;
 }
 .all main .container .text h1 {
@@ -277,7 +278,7 @@ body {
   line-height: 2.4rem;
   width: 48.7rem;
   display: block;
-  margin: 1.8rem 0 5.2rem;
+  margin: 1.8rem 0 5rem;
 }
 .all main .container .text h3 {
   color: #232233;
@@ -311,6 +312,15 @@ body {
 aside {
   display: none;
   cursor: pointer;
+}
+
+.btn span{
+  font-family: Work Sans , sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 123.6%; 
+  text-decoration-line: underline;
 }
 
 .hidden {
@@ -411,7 +421,16 @@ aside {
     zoom: 0.7;
   }
 }
-@media screen and (max-width: 562px) {
+@media screen and (max-width: 560px) {
+  .all main .container .text{
+    height: 43rem;
+  }
+  .all main .container .text .border{
+    height: 53rem;
+  }
+  .all header nav .bottomNav .log{
+    width: 20rem;
+  }
   nav .container {
     width: 30rem;
   }
